@@ -11,19 +11,25 @@
         padding: 0;
         box-sizing: border-box;
       }
+      :root {
+  --app-bg: #9f988c;
+}
 
       html,
       body {
         width: 100%;
         height: 100%;
         overflow: hidden;
-        background: linear-gradient(to bottom, #E8F4F8 0%, #D0E8F0 100%);
+        background: #9F978C; /* Matches the 3D scene background - blends with grey model */
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       canvas {
         display: block;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
       }
     </style>
   </head>
